@@ -84,5 +84,3 @@ test:
 production:
   <<: *default
   database: skyverge_page_production
-  username: skyverge_page
-  password: <%= ENV['SKYVERGE_PAGE_DATABASE_PASSWORD'] %>
