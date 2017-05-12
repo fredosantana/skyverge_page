@@ -10,6 +10,12 @@
   margin-bottom: 0;
 }
 
+.navbar-inverse .navbar-brand:hover, 
+.navbar-inverse .navbar-brand:focus {
+  background-color: transparent;
+  color: #999999;
+}
+
 .navbar-brand {
   font-family: 'Days One', sans-serif;
   margin: -20px;
@@ -40,4 +46,6 @@ body {
   background-image: url('ep_naturalwhite.png'); 
 }
 
-
+.test a:hover {
+  text-decoration: none;
+}
